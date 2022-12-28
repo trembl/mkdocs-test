@@ -1,0 +1,4 @@
+site_name: FabAcademy Documentation
+theme:
+#  name: bootstrap386
+  name: material
