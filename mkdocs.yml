@@ -1,4 +1,16 @@
-site_name: FabAcademy Documentation
+site_name: MkDocs Test Site
 theme:
 #  name: bootstrap386
   name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+markdown_extensions:
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.keys
